@@ -1,0 +1,203 @@
+#body {
+    margin: 0;
+}
+
+#box {
+    background-color: red;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: row;
+}
+div{
+    text-align: center;
+    justify-content: center;  
+} /*?????????*/
+#left {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    min-width: 50px;
+    flex-grow: 2;
+    padding: 10px;
+    gap: 10px;
+}
+
+#left1{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    gap: 10px;
+
+}
+
+#left1-1{
+    background-color: blueviolet;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+#left1-2{
+    background-color:darkgreen;
+    display: flex;
+    flex-grow: 1;
+}
+
+#left2{
+    background-color: slategrey;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 3;   
+}
+
+#left2-1{
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 10px;
+    gap: 10px;
+}
+#sw{
+    background-color: blue;
+    flex-grow: 1;
+}
+#tm{
+    background-color: blueviolet;
+    flex-grow: 1;
+    align-items: center;
+}
+
+#timerbutton{
+    margin: 10px 0px 0px 0px;
+}
+#left2-2{
+    background-color:darksalmon;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 10px;
+    padding: 10px;
+}
+
+#sitebox1{
+    background-color: aliceblue;
+    display: flex;
+    flex-grow: 1;
+    gap: 10px;
+}
+
+#sitebox2{
+    background-color: saddlebrown;
+    display: flex;
+    flex-grow: 1;
+    gap: 10px;
+}
+
+.site {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+.underline{
+    text-decoration: none;
+}
+
+#left3{
+    background-color: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-grow: 10;    
+   
+}
+
+#right {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-width: 50px;
+    flex-grow: 1;   
+    padding: 10px;
+    gap: 10px;
+}
+
+#right1{
+    background-color:skyblue;
+    display: flex;
+    flex-grow: 2;
+}
+#right2{
+    background-color:khaki;
+    display: flex;
+    flex-grow: 15;
+}
+#right3{
+    background-color:slategray;
+    display: flex;
+    flex-grow: 16;
+}
+#note{
+    display: flex;
+}
+
+#con{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#toDoForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#toDoInput{
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    font-size: 19px;
+}
+ul{
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+#toDos >li{
+    list-style-type: none;
+    border: solid black 2px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: white;
+}
+#Done >li{
+    list-style-type: none;
+    border: solid black 2px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: white;
+}
+
+#day {
+    margin: 0px 10px 0px 0px;
+}
