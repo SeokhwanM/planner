@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="box">
+        <div id="left">
+            <div id="left1">
+                <div id="left1-1">
+                    <span id="day"></span>
+                    <span id="time"></span>
+                </div>
+                <div id="left1-2">급식</div>
+            </div>
+
+            <div id="left2">
+                <div id="left2-1">
+                    <div id="sw">
+                        <div id="stopwatch">00:00:00</div>
+                        <button id="startb">시작</button>
+                        <button id="resetb">초기화</button>
+                    </div>
+                    <div id="tm">
+                        <div id="timer">00:00:00</div>
+                        <button id="kor">국어</button>
+                        <button id="math">수학</button>
+                        <button id="eng">영어</button>
+                        <button id="sci">과탐</button>
+                        <div id="timerbutton">
+                            <button id="starttm">시작</button>
+                            <button id="resettm">초기화</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="left2-2">
+                    <div id="sitebox1">
+                        <div class="site"><a href="http://www.megastudy.net/megastudy.asp" class="underline"
+                                target="_blank">메가스터디</a></div>
+                        <div class="site"><a href="https://event.etoos.com/" class="underline" target="_blank">이투스</a>
+                        </div>
+                    </div>
+                    <div id="sitebox2">
+                        <div class="site"><a href="https://sungbo.sen.hs.kr/" class="underline"
+                                target="_blank">성보고등학교</a></div>
+                        <div class="site"><a href="https://sungbo.riroschool.kr/" class="underline"
+                                target="_blank">리로스쿨</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="left3">
+                달력
+            </div>
+        </div>
+
+
+        <div id="right">
+            <div id="right1">수능디데이</div>
+            <div id="right2">
+                <div id="con">
+                    <form id="toDoForm">
+                        <input id="toDoInput" type="text" placeholder="오늘 당신이 해야할 일은?" />
+                    </form>
+                    <div id="div">
+                        <ul id="toDos">ToDoList</ul>
+                        <ul id="Done">Done</ul>
+                    </div>
+                </div>
+            </div>
+            <div id="right3">
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
